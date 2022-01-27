@@ -63,6 +63,7 @@ class _waiting_screen_viewState extends State<waiting_screen_view> {
                               fontSize: 26, fontWeight: FontWeight.bold)),
                       margin: EdgeInsets.only(top: 30),
                     ),
+                    // container for the future and circule indicator
                     Container(
                       margin: EdgeInsets.only(top: 40),
                       child: FutureBuilder(
